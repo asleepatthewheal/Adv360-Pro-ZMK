@@ -79,11 +79,11 @@
 
         layer_NAVIGATION {
             bindings = <
- &trans  &trans                  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans              &trans                  &trans              &trans  &trans  &trans
- &trans  &trans                  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans  &macro_set_vim_cwd  &macro_buffer_previous  &macro_next_window  &trans  &trans
- &trans  &trans  &macro_buffer_previous  &trans  &trans  &trans            &trans     &trans  &trans                  &trans   &trans     &trans  &trans            &kp RCMD               &kp RCTRL       &kp RIGHT_ALT  &trans  &trans
- &trans  &trans                  &trans  &trans  &trans  &trans                               &trans                  &trans                      &trans     &macro_next_app     &macro_previous_app              &trans  &trans  &trans
- &trans  &trans                  &trans  &trans  &trans                    &trans  &kp GRAVE  &trans                  &trans  &kp TAB  &kp SPACE                      &trans                  &trans              &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans                &trans     &trans         &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans    &macro_set_vim_cwd     &trans         &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &macro_buffer_previous  &trans                  &macro_list_buffers  &macro_buffer_next     &trans  &trans              &kp RCMD  &kp RCTRL  &kp RIGHT_ALT  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                            &trans                               &trans                                 &trans  &macro_easy_motion_b     &trans         &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans               &kp GRAVE  &trans                               &trans             &kp TAB  &kp SPACE                        &trans     &trans         &trans  &trans  &trans
             >;
         };
 
