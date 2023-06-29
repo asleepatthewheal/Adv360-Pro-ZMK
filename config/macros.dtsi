@@ -1,8 +1,14 @@
+macro_buffer_next: macro_buffer_next{
+compatible = "zmk,behavior-macro";
+label = "macro_buffer_next";
+#binding-cells = <0>;
+bindings = <&kp COLON>, <&kp B>, <&kp N>, <&kp ENTER>;
+};
 macro_set_vim_cwd: macro_set_vim_cwd{
 compatible = "zmk,behavior-macro";
 label = "macro_set_vim_cwd";
 #binding-cells = <0>;
-bindings = <&kp G>, <&kp W>, <&kp D>, <&kp ENTER>, <&kp COLON>, <&kp C>, <&kp D>, <&kp SPACE>, <&sk LGUI>, <&kp V>, <&kp ENTER>;
+bindings = <&kp G>, <&kp W>, <&kp D>, <&kp ENTER>, <&kp COMMA>, <&kp F>, <&kp COLON>, <&kp C>, <&kp D>, <&kp SPACE>, <&sk LGUI>, <&kp V>, <&kp ENTER>;
 };
 macro_easy_motion_b: macro_easy_motion_b{
 compatible = "zmk,behavior-macro";
