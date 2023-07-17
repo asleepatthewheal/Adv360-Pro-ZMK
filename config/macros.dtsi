@@ -1,3 +1,15 @@
+macro_app_left: macro_app_left{
+compatible = "zmk,behavior-macro";
+label = "macro_app_left";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp TAB>, <&kp GRAVE>, <&kp GRAVE>;
+};
+macro_app_right: macro_app_right{
+compatible = "zmk,behavior-macro";
+label = "macro_app_right";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kp TAB>;
+};
 macro_list_buffers: macro_list_buffers{
 compatible = "zmk,behavior-macro";
 label = "macro_list_buffers";
