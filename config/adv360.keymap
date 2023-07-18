@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-     &kp EQUAL   &kp N1      &kp N0  &kp DOLLAR       &kp N4  &kp N5               &tog 1                                                                    &mo 3  &kp N6       &kp N7   &kp TAB        &kp ENTER    &kp N0      &kp MINUS
-       &kp TAB    &kp Q       &kp W       &kp E        &kp R   &kp T                &none                                                                  &kp TAB   &kp Y        &kp U     &kp I            &kp O     &kp P       &kp BSLH
-       &kp ESC    &kp A  &mt LGUI S     &lt 1 D      &lt 4 F   &kp G                &none  &mt LCTRL B  &kp LALT                   &kp RALT  &mt RGUI N  &kp ENTER   &kp H        &kp J     &kp K       &mt RGUI L  &kp SEMI        &kp SQT
- &mt LSHFT TAB    &kp Z  &mt LALT X       &kp C  &mt LSHFT V   &kp B                                    &kp HOME                  &kp PG_UP                          &kp N  &mt RSHFT M  &kp BSPC  &mt RALT PERIOD  &kp FSLH  &mt RSHFT TAB
-         &mo 2  &kp TAB     &kp TAB    &kp LEFT    &kp RIGHT                    &kp SPACE  &lt 5 GRAVE   &kp END                  &kp PG_DN   &kp ENTER  &kp SPACE               &kp UP  &kp DOWN          &kp ESC  &kp RBKT          &mo 2
+     &kp EQUAL   &kp N1      &kp N0   &kp TAB       &kp N4  &kp N5               &tog 1                                                                    &mo 3  &kp N6       &kp N7   &kp TAB         &kp DLLR    &kp N0      &kp MINUS
+       &kp TAB    &kp Q       &kp W     &kp E        &kp R   &kp T                &none                                                                  &kp TAB   &kp Y        &kp U     &kp I            &kp O     &kp P       &kp BSLH
+       &kp ESC    &kp A  &mt LGUI S   &lt 1 D      &lt 4 F   &kp G                &none  &mt LCTRL B  &kp LALT                   &kp RALT  &mt RGUI N  &kp ENTER   &kp H        &kp J     &kp K       &mt RGUI L  &kp SEMI        &kp SQT
+ &mt LSHFT TAB    &kp Z  &mt LALT X     &kp C  &mt LSHFT V   &kp B                                    &kp HOME                  &kp PG_UP                          &kp N  &mt RSHFT M  &kp BSPC  &mt RALT PERIOD  &kp FSLH  &mt RSHFT TAB
+         &mo 2  &kp TAB     &kp TAB  &kp LEFT    &kp RIGHT                    &kp SPACE  &lt 5 GRAVE   &kp END                  &kp PG_DN   &kp ENTER  &kp SPACE               &kp UP  &kp DOWN          &kp ESC  &kp RBKT          &mo 2
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_NAVIGATION {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans                &trans      &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans    &macro_set_vim_cwd      &trans     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &macro_buffer_previous  &trans                  &macro_list_buffers  &macro_buffer_next     &trans  &trans             &kp COMMA   &kp MINUS  &kp UNDER  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                            &trans                               &trans                                 &trans  &macro_easy_motion_b  &kp DELETE     &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans               &kp GRAVE  &trans                               &trans             &kp TAB  &kp SPACE                        &trans      &trans     &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans                &trans      &trans              &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                                              &trans  &trans             &kp ENTER   &kp ENTER              &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &macro_buffer_previous  &trans                  &macro_list_buffers  &macro_buffer_next     &trans  &trans             &kp COMMA   &kp MINUS           &kp UNDER  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                            &trans                               &trans                                 &trans  &macro_easy_motion_b  &kp DELETE  &macro_set_vim_cwd  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans               &kp GRAVE  &trans                               &trans             &kp TAB  &kp SPACE                        &trans      &trans              &trans  &trans  &trans
             >;
         };
 
