@@ -1,3 +1,9 @@
+macro_escape_terminal: macro_escape_terminal{
+compatible = "zmk,behavior-macro";
+label = "macro_escape_terminal";
+#binding-cells = <0>;
+bindings = <&kp COMMA>, <&kp F>;
+};
 macro_list_buffers: macro_list_buffers{
 compatible = "zmk,behavior-macro";
 label = "macro_list_buffers";
@@ -15,12 +21,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_set_vim_cwd";
 #binding-cells = <0>;
 bindings = <&kp G>, <&kp W>, <&kp D>, <&kp ENTER>, <&kp COMMA>, <&kp F>, <&kp COLON>, <&kp C>, <&kp D>, <&kp SPACE>, <&sk LGUI>, <&kp V>, <&kp ENTER>;
-};
-macro_easy_motion_b: macro_easy_motion_b{
-compatible = "zmk,behavior-macro";
-label = "macro_easy_motion_b";
-#binding-cells = <0>;
-bindings = <&kp COMMA>, <&kp COMMA>, <&kp B>;
 };
 macro_buffer_previous: macro_buffer_previous{
 compatible = "zmk,behavior-macro";
